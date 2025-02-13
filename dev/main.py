@@ -18,7 +18,6 @@ app.add_middleware(
 def read_root():
     return {"Hello": "World"}
 
-app.include_router(router=interns_info_router)
     
 if __name__ == "__main__":
     import uvicorn
