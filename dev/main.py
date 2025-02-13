@@ -3,7 +3,6 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 import os
 from dotenv import load_dotenv
-from dev.controller.InternsInfoController import interns_info_router
 
 load_dotenv('.env')
 app = FastAPI()
